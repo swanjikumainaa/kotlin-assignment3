@@ -1,0 +1,33 @@
+fun main() {
+
+    one()
+    two()
+    three()
+    var a = four("Susan","Wanjiku","Maina")
+    println(a)
+}
+
+fun one(){
+    var names =arrayOf("Joan","Risper","Mercy","Suzzie","Blaire")
+    println(names.contentToString())
+}
+
+fun two() {
+    var cities = arrayOf("harare","mumbai","dodoma","jakarta")
+    println(cities.capitalise())
+}
+
+fun three(){
+    var numbers =arrayOf(32,17,4,213,78,43,90,31,3,73,11,158,62)
+    println(numbers.get(2).sum(numbers.get(5)))
+    println(index(158))
+    println(sortedArray.contentToString())
+}
+//  Create a function that takes in 3 names and returns a string array containing
+// all 3 names.
+
+fun four(name1:String,name2:String,name3:String):String{
+    var output = arrayOf("name1","name2","name3")
+    return output
+    
+}
